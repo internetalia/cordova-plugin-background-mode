@@ -284,7 +284,7 @@ class BackgroundExt {
     /**
      * Add required flags to the window to unlock/wakeup the device.
      */
-    static void addWindowFlags(Activity app) {
+  /**  static void addWindowFlags(Activity app) {
         final Window window = app.getWindow();
 
         app.runOnUiThread(new Runnable() {
@@ -298,7 +298,7 @@ class BackgroundExt {
             }
         });
     }
-
+*/
     /**
      * The activity referenced by cordova.
      *
